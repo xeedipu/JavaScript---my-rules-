@@ -1,1 +1,12 @@
+Today topic was, 
+String 
+HTML & Css Review and colsol log 
+Comment on JavaScript
+Consol.log 
+Variables
+Naming Conventions for variables
+3 ways to make variable in JavaScript 
+How to check variable variable type
+Booleans and Conditional Statement on JavaScript
 
+Make a project (a simple Rock-Paper-Scissionrs) game
