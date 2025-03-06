@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Youtube Subscribe Button</p>
+    <button onclick="
+        const buttonElement = document.querySelector('.js-subscribe-button');
+
+        if (buttonElement.innerHTML === 'Subscribe') {
+            buttonElement.innerHTML = 'Subscribed';
+        }else{
+            buttonElement.innerHTML = 'Subscribe';
+        }
+    "class="js-subscribe-button">Subscribe</button>
+
+</body>
+</html> -->
+
+
+
+
+
+<!-- Now make the same thing with my own idea 
+Let make this " make a button I love you, when anybody click this button it's convert to I hate you" -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My idea</title>
+</head>
+<body>
+    <p>
+        Tape the "I love you" button!
+    </p>
+    <div class="button">
+        <button onclick="
+            const buttonElement = document.querySelector('.js-button');
+
+                if(buttonElement.innerHTML === 'I LOVE YOU'){
+                    buttonElement.innerHTML = 'I HATE YOU';
+                }else{
+                    buttonElement.innerHTML = 'I LOVE YOU';
+                }
+        " class="js-button">I LOVE YOU</button>
+    </div>
+
+    <!-- <script>
+        function convert(){
+            const buttonElement = document.querySelector('.js-button');
+
+            if(buttonElement.innerHTML === 'I LOVE YOU'){
+                buttonElement.innderHTML = 'I HATE YOU';
+            }else{
+                buttonElement.innderHTML = 'I LOVE YOU';
+            }
+        }
+    </script> -->
+
+    <style>
+        
+        p{
+            text-align: center;
+            font-weight: 800;
+            font-size: 20px;
+        }
+        button{
+            margin-left: 50%;
+            height: 100px;
+            width: 100px;
+            border-radius: 20px;
+            background-color: green;
+            color: white;
+            border: 0;
+
+        }
+        button:hover{
+            background-color: greenyellow;
+            color: black;
+            transition: 1.5s;
+        }
+
+
+    </style>
+
+
+
+</body>
+</html>
+
